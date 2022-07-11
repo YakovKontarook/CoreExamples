@@ -17,39 +17,14 @@ import java.util.Map;
 
 public class ExampleHashCode {
 
-    private int field;
-
-    public ExampleHashCode(int field) {
-        this.field = field;
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-
-        ExampleHashCode that = (ExampleHashCode) o;
-
-        return field == that.field;
-    }
+}
+class Paper {
+    private int price;
+    private String producerName;
 
     @Override
     public int hashCode() {
-        return super.hashCode();
-    }
-
-    public static void main(String[] args) {
-        ExampleHashCode ref1 = new ExampleHashCode(1000);
-        ExampleHashCode ref2 = new ExampleHashCode(1000);
-
-        Map<ExampleHashCode, String> map = new HashMap<>();
-        map.put(ref1, "123");
-        String s = map.get(ref2);
-        System.out.println(s);
-
-        System.out.println(ref1 == ref2); // false
-        System.out.println(ref1.equals(ref2)); //false
-        System.out.println(ref1.hashCode() == ref2.hashCode()); //false
+        return (int) (31 * price + ((null == producerName)? 0 : producerName.hashCode()));
     }
 }
 
