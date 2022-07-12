@@ -11,7 +11,6 @@ import java.util.ArrayList;
 public class GenericsExample1 {
 
     public static void main(String[] args) {
-        //До Java5
         //BeforeJava5();
 
         //После Java5
@@ -38,7 +37,7 @@ public class GenericsExample1 {
         System.out.println(value2);
     }
 }
-class Message<T1, T2> { // T1, T2 - фиктивные типы, определяются при создании объекта
+class Message<T1 extends Number, T2 extends CharSequence> { // T1, T2 - фиктивные типы, определяются при создании объекта
     T1 id;
     T2 name;
 
