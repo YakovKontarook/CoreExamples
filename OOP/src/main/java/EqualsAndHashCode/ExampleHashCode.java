@@ -14,7 +14,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class ExampleHashCode {
-
+    public static void main(String[] args) {
+        Paper paper = new Paper();
+        System.out.println(paper.hashCode());
+    }
 }
 class Paper {
     private int price;
