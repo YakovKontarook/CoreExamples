@@ -11,6 +11,8 @@ package InnerNestedEnum.Inner.Enum;
 Enums переопределяют toString() и определяют valueOf()
 */
 
+import java.util.Comparator;
+
 public class EnumExample {
     public static void main(String[] args) {
         Season season = Season.AUTUMN;
@@ -18,7 +20,7 @@ public class EnumExample {
         System.out.println(Season.SUMMER.temperature());
     }
 }
-enum Season {
+enum Season implements Comparator<Season> {
     WINTER(0),
     SPRING(12),
     SUMMER(26),
@@ -32,5 +34,9 @@ enum Season {
 
     public int temperature() {
         return temperature;
+    }
+    @Override
+    public int compare(Season o1, Season o2) {
+        return 0;
     }
 }
