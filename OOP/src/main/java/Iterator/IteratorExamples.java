@@ -45,6 +45,5 @@ public class IteratorExamples {
         while (randomIntsIterator.hasNext()) {
             System.out.println(counter++ + " " + randomIntsIterator.next());
         }
-
     }
 }

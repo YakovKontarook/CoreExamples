@@ -23,7 +23,6 @@ public class InterfaceComparable {
         IntHolder[] holders = {new IntHolder(1), new IntHolder(-1), new IntHolder(10)};
         Arrays.sort(holders, reverseOrderComparator);   // не знает как сравнивать, нужно унаследоваться от интерфейса Comparable
         // либо передаем в аргумент объект класса унаследованого от Comparator, если нужно задать способ сравнения
-
     }
 }
 

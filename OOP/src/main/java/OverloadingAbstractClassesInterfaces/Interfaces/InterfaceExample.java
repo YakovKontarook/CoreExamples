@@ -13,15 +13,14 @@ import java.util.Comparator;
 public class InterfaceExample implements MyInterface {
 
     Comparator<String> comparator = new Comparator<String>() {  // Comparator является интерфейсом,
-                                                                // создавая обьект comparator через оператор new мы неявно создаем новым анонимный класс,
-                                                                // который имплементирует интерфейс Comparator
+        // создавая обьект comparator через оператор new мы неявно создаем новым анонимный класс,
+        // который имплементирует интерфейс Comparator
         @Override
         public int compare(String o1, String o2) {
             return 0;
         }
     };
     Comparator<String> comparatorLambda = (o1, o2) -> 0; // также мы можем сделать это через лямбда функию (java8+)
-
 
     double PI = MyInterface.PI;
 

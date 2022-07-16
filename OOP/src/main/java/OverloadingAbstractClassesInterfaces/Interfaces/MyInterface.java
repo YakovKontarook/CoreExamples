@@ -1,8 +1,8 @@
 package OverloadingAbstractClassesInterfaces.Interfaces;
 
 public interface MyInterface {
-
     public static final double PI = Math.PI;
+
     int getValue();
 }
 
