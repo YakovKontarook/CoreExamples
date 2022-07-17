@@ -1,4 +1,4 @@
-package InnerNestedEnum.Inner;
+package OOP.InnerNestedEnum.Inner;
 
 /*
     Анонимный класс расширяет другой класс или реализует внешний интерфейс при объявлении одного единственного объекта;

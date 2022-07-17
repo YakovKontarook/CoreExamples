@@ -1,4 +1,4 @@
-package OverloadingAbstractClassesInterfaces.OverrideExample;
+package OOP.OverloadingAbstractClassesInterfaces.OverrideExample;
 
 /*
 Shadowing - унаследованный метод вызывается у ближайшего родителя, скрывая реализацию метода у GrandParent

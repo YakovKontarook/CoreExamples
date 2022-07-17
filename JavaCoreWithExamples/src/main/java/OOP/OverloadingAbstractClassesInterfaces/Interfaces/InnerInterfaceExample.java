@@ -1,4 +1,4 @@
-package OverloadingAbstractClassesInterfaces.Interfaces;
+package OOP.OverloadingAbstractClassesInterfaces.Interfaces;
 
 public class InnerInterfaceExample {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package InnerNestedEnum.Inner.Enum;
+package OOP.InnerNestedEnum.Inner.Enum;
 
 /*
     В отличии от статических контстант, предоставляют типизированный, безопасный способ задания фиксированных наборов значений

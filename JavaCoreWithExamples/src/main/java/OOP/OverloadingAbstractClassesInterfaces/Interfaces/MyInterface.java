@@ -1,4 +1,4 @@
-package OverloadingAbstractClassesInterfaces.Interfaces;
+package OOP.OverloadingAbstractClassesInterfaces.Interfaces;
 
 public interface MyInterface {
     public static final double PI = Math.PI;

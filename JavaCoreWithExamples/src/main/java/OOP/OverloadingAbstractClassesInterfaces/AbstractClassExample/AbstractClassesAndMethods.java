@@ -1,4 +1,4 @@
-package OverloadingAbstractClassesInterfaces.AbstractClassExample;
+package OOP.OverloadingAbstractClassesInterfaces.AbstractClassExample;
 /*
     В классе где метод объявлен абстрактным его реализация не требуется.
     Если в классе есть абстрактные методы, то класс следует объявить абстрактным.

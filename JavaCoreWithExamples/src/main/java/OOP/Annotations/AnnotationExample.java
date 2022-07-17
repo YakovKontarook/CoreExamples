@@ -1,4 +1,4 @@
-package Annotations;
+package OOP.Annotations;
 
 /*
             Использование аннотаций

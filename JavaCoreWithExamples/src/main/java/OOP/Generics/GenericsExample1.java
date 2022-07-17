@@ -1,4 +1,4 @@
-package Generics;
+package OOP.Generics;
 import java.util.ArrayList;
 /*
         Определение параметризованного класса:

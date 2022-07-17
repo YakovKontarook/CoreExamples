@@ -1,4 +1,4 @@
-package InnerNestedEnum.Inner;
+package OOP.InnerNestedEnum.Inner;
 
 /*
         Подкласс вложенного класса не наследует возможность доступа к членам внешнего класса,

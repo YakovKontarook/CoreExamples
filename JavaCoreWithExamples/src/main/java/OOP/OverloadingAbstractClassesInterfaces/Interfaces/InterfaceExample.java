@@ -1,4 +1,4 @@
-package OverloadingAbstractClassesInterfaces.Interfaces;
+package OOP.OverloadingAbstractClassesInterfaces.Interfaces;
 
 /*
     Интерфейсы в java применяются для добавления к классам новых возможностей, которых нет и не может быть в базовых классах

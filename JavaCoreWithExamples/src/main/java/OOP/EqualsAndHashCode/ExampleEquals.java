@@ -1,4 +1,4 @@
-package EqualsAndHashCode;
+package OOP.EqualsAndHashCode;
 /*
     При переопределениии должны выполняться следущие условия:
     Рефлексивность - объект равен самому себе

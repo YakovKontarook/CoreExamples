@@ -1,4 +1,4 @@
-package Iterator;
+package OOP.Iterator;
 
 import java.util.Iterator;
 import java.util.concurrent.ThreadLocalRandom;

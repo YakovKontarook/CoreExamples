@@ -1,4 +1,4 @@
-package EqualsAndHashCode;
+package OOP.EqualsAndHashCode;
 
 /*
 //    Нативный метод HashCode

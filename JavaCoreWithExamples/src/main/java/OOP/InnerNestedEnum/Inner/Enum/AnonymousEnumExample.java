@@ -1,4 +1,4 @@
-package InnerNestedEnum.Inner.Enum;
+package OOP.InnerNestedEnum.Inner.Enum;
 
 public class AnonymousEnumExample {
     public static void main(String[] args) {

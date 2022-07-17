@@ -1,4 +1,4 @@
-package OverloadingAbstractClassesInterfaces.Interfaces;
+package OOP.OverloadingAbstractClassesInterfaces.Interfaces;
 
 import java.util.Arrays;
 import java.util.Comparator;

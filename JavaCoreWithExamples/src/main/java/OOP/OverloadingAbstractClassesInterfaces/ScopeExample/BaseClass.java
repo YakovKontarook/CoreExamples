@@ -1,4 +1,4 @@
-package OverloadingAbstractClassesInterfaces.ScopeExample;
+package OOP.OverloadingAbstractClassesInterfaces.ScopeExample;
 
 ///*
 //    Области видимости:

@@ -1,4 +1,4 @@
-package InnerNestedEnum.Inner;
+package OOP.InnerNestedEnum.Inner;
 
 /*
         Класс объявленный в интерфейсе является вложенным (static) по умолчанию

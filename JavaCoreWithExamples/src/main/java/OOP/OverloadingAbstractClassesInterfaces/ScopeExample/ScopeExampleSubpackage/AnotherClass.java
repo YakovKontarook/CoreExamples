@@ -1,4 +1,4 @@
-package OverloadingAbstractClassesInterfaces.ScopeExample.ScopeExampleSubpackage;
+package OOP.OverloadingAbstractClassesInterfaces.ScopeExample.ScopeExampleSubpackage;
 
 import OverloadingAbstractClassesInterfaces.ScopeExample.BaseClass;
 /*

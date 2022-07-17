@@ -1,4 +1,4 @@
-package InnerNestedEnum.Inner;
+package OOP.InnerNestedEnum.Inner;
 
 /*
         Доступ к элементам внутреннего класса возможен только из внешнего класса через объект внутреннего.

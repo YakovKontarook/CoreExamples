@@ -1,4 +1,4 @@
-package OverloadingAbstractClassesInterfaces.OverrideExample;
+package OOP.OverloadingAbstractClassesInterfaces.OverrideExample;
 ///*
 //final и static методы не переопределяются
 //final классы не наследуются
