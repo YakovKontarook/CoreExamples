@@ -4,7 +4,6 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
-
 /*
         Классы байтовых потоков
                 Наверху этой иерархии-два абстрактных класса:InputStream и OutputStream.

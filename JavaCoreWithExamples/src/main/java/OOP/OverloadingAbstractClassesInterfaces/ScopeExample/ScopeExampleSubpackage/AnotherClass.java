@@ -1,6 +1,6 @@
 package OOP.OverloadingAbstractClassesInterfaces.ScopeExample.ScopeExampleSubpackage;
 
-import OverloadingAbstractClassesInterfaces.ScopeExample.BaseClass;
+import OOP.OverloadingAbstractClassesInterfaces.ScopeExample.BaseClass;
 /*
 //    Области видимости:
 
