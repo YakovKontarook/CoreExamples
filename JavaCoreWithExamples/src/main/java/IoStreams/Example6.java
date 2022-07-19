@@ -3,9 +3,6 @@ package IoStreams;
 import java.io.CharArrayReader;
 import java.io.IOException;
 import java.io.PushbackReader;
-import java.util.Random;
-import java.util.random.RandomGenerator;
-
 
 public class Example6 {
     public static void main(String[] args) throws IOException {
@@ -31,6 +28,5 @@ public class Example6 {
                     break;
             }
         }
-        
     }
 }
