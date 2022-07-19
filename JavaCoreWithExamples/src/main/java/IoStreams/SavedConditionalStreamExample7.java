@@ -25,11 +25,11 @@ public class SavedConditionalStreamExample7 {
         InputStream oldIn = System.in;
         PrintStream oldOut = System.out;
 
+        // код который выполняет работу
         try {
-            // код который выполняет работу
             task.run();
-        } finally {
             // возвращение в старое состояние
+        } finally {
             System.setIn(oldIn);
             System.setOut(oldOut);
         }
