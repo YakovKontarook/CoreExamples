@@ -11,7 +11,7 @@ public class ExceptionsExample4 {
         try {
             stream = new FileInputStream("123");
             System.out.println("Before exception");
-            if(true) {
+            if (true) {
                 stream.read();
             }
             System.out.println("After Exception");
@@ -20,7 +20,7 @@ public class ExceptionsExample4 {
             // до появления try-with-resources
         } finally {
             if (stream != null) {
-                try{
+                try {
                     stream.close();
                 } catch (IOException closeEx) {
                     if (ex != null) {
