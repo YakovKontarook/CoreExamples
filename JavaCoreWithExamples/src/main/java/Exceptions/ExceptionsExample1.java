@@ -12,7 +12,7 @@ package Exceptions;
     Все типы исключений являются подклассами встроенного класса Throwable
 */
 
-public class Exceptions {
+public class ExceptionsExample1 {
     public static void main(String[] args) throws Exception {
         int d, a;
         try {
