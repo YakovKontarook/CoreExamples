@@ -20,6 +20,5 @@ public class IoStreamExample2 {
                 PipedWriter writer = new PipedWriter(reader);
                 writer.write('!');
                 System.out.println((char)reader.read());
-
         }
 }
