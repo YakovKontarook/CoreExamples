@@ -21,8 +21,40 @@ package Collections;
 
        Интерфейсы позволяют использовать коллекции независимо от деталей конкретной реализации,
        реализуя тем самым принци полиморфизма.
+
+       Все конткретные классы Java Collections Framework реализуют Cloneable и Serializable интерефейсы,
+       следовательно, их экземпляры могут быть клонированы и сериализованы.
+
+       Реализации (Implementations)
+
+       Конкретные реализации интерфейсов могут быть следующих типов:
+            -General-purpose implementations
+                    (Sets: HashSet, TreeSet, LinkedHasSet. Lists: ArrayList, LinkedList. Maps: HashMap, TreeMap, LinkedHashMap. Queue: PriorityQueue)
+
+            -Special-purpose implementations
+                    (Sets: EnumSet, CopyOnWriteArraySet. Lists: CopyOnWriteArrayList. Maps: EnumMap, WeakHashMap, IdentityHashMap)
+
+            -Concurrent implementations
+                    (ConcurrentHashMap, LinkedBlockingQueue, ArrayBlockingQueue, PriorityBlockingQueue, DelayQueue, SynchronousQueue, LinkedTransferQueue)
+
+            -Wrapper implementations - реализации-обертки, чтобы предоставить добавленную или ограниченную функциональность, находятся в классе Collections
+                    (synchronizedCollection(Collection<T> c), synchronizedSet(Set<T> s), synchronizedList(List<T> list), synchronizedMap(Map<T> map), и др.)
+
+            -Convenience implementations - удобные реализации, выполнены обычно с использованием реализаций общего назначения и применением static factory methods
+                для предоставления альтернативных путей создания (например, единичной коллекции)
+                    (Arrays.asList(), Collections.nCopies(), Collections.singleton(), emptySet(), emptyList(), emptyMap() (из Collections)
+
+            -Abstract implementations - основа всех реализаций коллекций, которая облегчает создание собственных коллекций.
+                    (AbstractCollection, AbstractSet, AbstractList, AbstractSequentialList, AbstractQueue, AbstractMap)
+
+       Алгоритмы - это методы которые выполняют некоторые вычисления, такие как поиск, сортировка объектов, реализующих интерфейс Collection.
+       Они также реализуют принцип полиморфизма, таким образом один и тот же метод может быть использован в различных реализациях Colletion интерфейса.
+       По существу алгоритмы представляют универсальную функциональность.
+
 */
 
 public class CollectionsExample1 {
+    public static void main(String[] args) {
 
+    }
 }
