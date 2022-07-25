@@ -1,5 +1,8 @@
 package Collections;
 
+import java.io.Serializable;
+import java.util.Comparator;
+
 /*
         Сравнение коллекций. Comparator, Comparable
 
@@ -24,5 +27,51 @@ public class CollectionsComparableExample {
 
     public static void main(String[] args) {
 
+    }
+}
+
+abstract class GeometricObject {
+    public abstract double getArea();
+}
+
+class Rectangle extends GeometricObject {
+
+    private double sideA;
+    private double sideB;
+
+    public Rectangle(double sideA, double sideB) {
+        this.sideA = sideA;
+        this.sideB = sideB;
+    }
+
+    @Override
+    public double getArea() {
+        return sideA * sideB;
+    }
+}
+
+class Circle extends GeometricObject {
+
+    private double radius;
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    @Override
+    public double getArea() {
+        return 2 * Math.PI * radius * radius;
+    }
+}
+
+class GeometricObjectComparator implements Comparator<GeometricObject>, Serializable {
+
+    private static final long serialVersionUID = 1L;
+
+    @Override
+    public int compare(GeometricObject o1, GeometricObject o2) {
+        double area1 = o1.getArea();
+        double area2 = o2.getArea();
+        return Double.compare(area1, area2);
     }
 }
