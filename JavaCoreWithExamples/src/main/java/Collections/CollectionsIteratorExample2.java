@@ -44,8 +44,6 @@ public class CollectionsIteratorExample2 {
 //        верный способ удаления(фильтрации) списков
         Predicate<Integer> graterThan4 = value -> value > 4;
         list.removeIf(graterThan4);
-
-
         System.out.println(list);
     }
 }
